@@ -1,0 +1,6 @@
+Decision_tree_classifier.py
+Gaussian_naive_bayes_classifier.py
+KNN_classifier.py
+Logistic_reg_classifier.py
+Rand_forest_classifier.py
+SVM_classifier.py
