@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 file="/home/abss/HBData/HBDataBase/UCI_HB.csv"
 file_data = pd.read_csv(file, sep=",")
 
-dataset = file_data.iloc[:, 0:12]
+dataset = file_data.iloc[:, 0:13]
 labels = file_data.iloc[:, 13]
 
 Dataset_train, Dataset_test, Label_train, Label_test = train_test_split(dataset, labels, test_size=0.3, random_state=7)
