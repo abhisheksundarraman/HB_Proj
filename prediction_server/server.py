@@ -1,3 +1,5 @@
+#How to run this server - gunicorn --bind <IP-Address of host 192.168.0.103>:8000 server:app
+
 # import Flask class from the flask module
 from flask import Flask, request
 
